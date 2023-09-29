@@ -1,0 +1,14 @@
+INFO - 2023-09-26 02:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-09-26 02:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-26 02:54:09 --> require(vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Conciliacao.php on line 5.
+ 1 APPPATH\Controllers\Conciliacao.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(vendor/autoload.php): Failed to open stream: No such file or directory', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 5)
+ 2 APPPATH\Controllers\Conciliacao.php(5): require()
+ 3 SYSTEMPATH\Router\AutoRouter.php(147): include_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php')
+ 4 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao')
+ 5 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao')
+ 6 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao')
+ 7 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')

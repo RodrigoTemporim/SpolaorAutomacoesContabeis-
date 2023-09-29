@@ -1,0 +1,249 @@
+INFO - 2023-09-29 01:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 01:36:10 --> Column string index can not be longer than 3 characters
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 314.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(2616): PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString('Saldo')
+ 2 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('Saldo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:36:25 --> Column string index can not be longer than 3 characters
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 314.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(2616): PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString('Saldo')
+ 2 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('Saldo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:36:26 --> Column string index can not be longer than 3 characters
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 314.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(2616): PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString('Saldo')
+ 2 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('Saldo')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:30 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:37 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:38 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:39 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:39 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:39 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:39 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:40 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:40:40 --> Column references should not be numeric.
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2611.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('7')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:42:27 --> Column string index can not be longer than 3 characters
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 314.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(2616): PhpOffice\PhpSpreadsheet\Cell\Coordinate::columnIndexFromString('H,B,D')
+ 2 APPPATH\Controllers\Conciliacao.php(36): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->removeColumn('H,B,D')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:47:37 --> PhpOffice\PhpSpreadsheet\Worksheet\Worksheet::insertNewColumnBefore(): Argument #2 ($numberOfColumns) must be of type int, string given, called in H:\spoloar\SpolaorAutomacoesContabeis\empenho\app\Controllers\Conciliacao.php on line 39
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 2515.
+ 1 APPPATH\Controllers\Conciliacao.php(39): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->insertNewColumnBefore('H', 'Conciliação')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:49:25 --> syntax error, unexpected variable "$csvData"
+in APPPATH\Controllers\Conciliacao.php on line 43.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/pandas')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/pandas')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/pandas')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:53:02 --> syntax error, unexpected variable "$csvData"
+in APPPATH\Controllers\Conciliacao.php on line 42.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/pandas')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/pandas')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/pandas')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 01:54:16 --> syntax error, unexpected variable "$csvData"
+in APPPATH\Controllers\Conciliacao.php on line 42.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/pandas')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/pandas')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/pandas')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:02:06 --> Unmatched '}'
+in APPPATH\Controllers\Conciliacao.php on line 77.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/pandas')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/pandas')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/pandas')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:22:20 --> Call to undefined method PhpOffice\PhpSpreadsheet\Worksheet\Column::toArray()
+in APPPATH\Controllers\Conciliacao.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:28:00 --> Unclosed '{' on line 30
+in APPPATH\Controllers\Conciliacao.php on line 119.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/pandas')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/pandas')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/pandas')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:47:13 --> Undefined variable $lastRow
+in APPPATH\Controllers\Conciliacao.php on line 50.
+ 1 APPPATH\Controllers\Conciliacao.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastRow', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:48:27 --> Undefined variable $lastRow
+in APPPATH\Controllers\Conciliacao.php on line 51.
+ 1 APPPATH\Controllers\Conciliacao.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastRow', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:48:31 --> Undefined variable $lastRow
+in APPPATH\Controllers\Conciliacao.php on line 51.
+ 1 APPPATH\Controllers\Conciliacao.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastRow', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:58:09 --> Undefined variable $highestRow
+in APPPATH\Controllers\Conciliacao.php on line 78.
+ 1 APPPATH\Controllers\Conciliacao.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $highestRow', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 02:59:24 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\ReferenceHelper.php on line 433.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-09-29 02:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 03:32:21 --> Class "App\Controllers\Settings" not found
+in APPPATH\Controllers\Conciliacao.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 03:32:30 --> Class "App\Controllers\Settings" not found
+in APPPATH\Controllers\Conciliacao.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 03:32:31 --> Class "App\Controllers\Settings" not found
+in APPPATH\Controllers\Conciliacao.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 03:32:54 --> PhpOffice\PhpSpreadsheet\IOFactory::load(): Argument #2 ($flags) must be of type int, string given, called in H:\spoloar\SpolaorAutomacoesContabeis\empenho\app\Controllers\Conciliacao.php on line 37
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 104.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\IOFactory::load('H:\\xamp\\tmp\\php5E54.tmp', 'Csv', 'UTF-8')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 03:34:10 --> PhpOffice\PhpSpreadsheet\IOFactory::load(): Argument #2 ($flags) must be of type int, array given, called in H:\spoloar\SpolaorAutomacoesContabeis\empenho\app\Controllers\Conciliacao.php on line 37
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 104.
+ 1 APPPATH\Controllers\Conciliacao.php(37): PhpOffice\PhpSpreadsheet\IOFactory::load('H:\\xamp\\tmp\\php86A9.tmp', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 03:34:27 --> Class "App\Controllers\Settings" not found
+in APPPATH\Controllers\Conciliacao.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
