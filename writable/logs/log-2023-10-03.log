@@ -1,0 +1,123 @@
+INFO - 2023-10-03 14:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 14:33:34 --> Maximum execution time of 60 seconds exceeded
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Collection\Cells.php on line 171.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-03 14:41:22 --> Maximum execution time of 300 seconds exceeded
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Collection\Cells.php on line 436.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-10-03 17:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-03 17:52:10 --> Undefined variable $lastValidDate
+in APPPATH\Controllers\Conciliacao.php on line 91.
+ 1 APPPATH\Controllers\Conciliacao.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastValidDate', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->csv()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 18:54:39 --> syntax error, unexpected token "||"
+in APPPATH\Controllers\Conciliacao.php on line 114.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 19:17:49 --> syntax error, unexpected token ","
+in APPPATH\Controllers\Conciliacao.php on line 107.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 19:22:14 --> syntax error, unexpected variable "$value"
+in APPPATH\Controllers\Conciliacao.php on line 117.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 19:22:28 --> syntax error, unexpected token "||"
+in APPPATH\Controllers\Conciliacao.php on line 123.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 19:25:29 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Conciliacao.php on line 138.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 19:25:40 --> Unmatched '}'
+in APPPATH\Controllers\Conciliacao.php on line 228.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 19:27:41 --> Undefined variable $prefixToRemove1
+in APPPATH\Controllers\Conciliacao.php on line 123.
+ 1 APPPATH\Controllers\Conciliacao.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prefixToRemove1', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->csv()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 20:00:37 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Conciliacao.php on line 207.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 20:00:48 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Conciliacao.php on line 207.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 20:00:50 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Conciliacao.php on line 207.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 20:01:01 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Conciliacao.php on line 207.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-10-03 20:10:32 --> syntax error, unexpected token "else"
+in APPPATH\Controllers\Conciliacao.php on line 209.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/csv')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/csv')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/csv')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')

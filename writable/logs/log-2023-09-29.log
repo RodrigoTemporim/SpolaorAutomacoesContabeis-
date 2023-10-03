@@ -247,3 +247,36 @@ in APPPATH\Controllers\Conciliacao.php on line 22.
  3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+INFO - 2023-09-29 13:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-09-29 13:17:44 --> syntax error, unexpected token "for"
+in APPPATH\Controllers\Conciliacao.php on line 110.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('Conciliacao/pandas')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('Conciliacao/pandas')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('Conciliacao/pandas')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 13:18:18 --> Undefined variable $uniqueValues
+in APPPATH\Controllers\Conciliacao.php on line 114.
+ 1 APPPATH\Controllers\Conciliacao.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $uniqueValues', 'H:\\spoloar\\SpolaorAutomacoesContabeis\\empenho\\app\\Controllers\\Conciliacao.php', 114)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+CRITICAL - 2023-09-29 13:18:36 --> Cannot use [] for reading
+in APPPATH\Controllers\Conciliacao.php on line 108.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-09-29 13:31:43 --> Invalid cell coordinate BA.5
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 43.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(55): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('BA.5')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1399): PhpOffice\PhpSpreadsheet\Cell\Coordinate::indexesFromString('BA.5')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1289): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('BA.5')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1179): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('BA.5')
+ 5 APPPATH\Controllers\Conciliacao.php(119): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('BA.5', '22/02/2023 22/02/2023')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Conciliacao->pandas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Conciliacao))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
