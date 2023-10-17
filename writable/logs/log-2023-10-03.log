@@ -121,3 +121,4 @@ in APPPATH\Controllers\Conciliacao.php on line 209.
  5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('H:\\spoloar\\SpolaorAutomacoesContabeis\\public_html\\index.php')
+INFO - 2023-10-03 21:34:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

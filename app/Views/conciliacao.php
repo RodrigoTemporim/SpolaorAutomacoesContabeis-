@@ -49,28 +49,26 @@
 
                 <div class="card-body m-lg-3 ">
                     <h1 class="h1-center mb-1">Dados do CSV</h1>
-                    <!-- <div class="container d-flex flex-column align-items-end">
-                        <div class="mb-3">
+                    <div class="container d-flex flex-column align-items-end">
+                    <div class="mb-3">
                             <label for="Conciliado" class="form-label">Conciliado:</label>
-                            <input type="checkbox" id="filtro4" name="filtro4" onchange="aplicarFiltros()"> 
+                            <input type="checkbox" id="filtroConciliado" name="filtroConciliado" onchange="aplicarFiltros(this)"> 
                         </div>
-
                         <div class="mb-3">
-                            <label for="Credito" class="form-label">Crédito:</label>
-                            <input type="checkbox" id="filtro5" name="filtro5" onchange="aplicarFiltros()"> 
+                            <label for="Negativo" class="form-label">Negativo:</label>
+                            <input type="checkbox" id="filtroNegativo" name="filtroNegativo" onchange="aplicarFiltros(this)"> 
                         </div>
-
                         <div class="mb-3">
-                            <label for="Debito" class="form-label">Débito:</label>
-                            <input type="checkbox" id="filtro5" name="filtro5" onchange="aplicarFiltros()"> 
+                            <label for="Positivo" class="form-label">Positivo:</label>
+                            <input type="checkbox" id="filtroPositivo" name="filtroPositivo" onchange="aplicarFiltros(this)"> <!-- Corrigido o ID -->
                         </div>
-                    </div> -->
+                    </div>
                 </div>
 
 
                 <div class="table-responsive text-center">                  
 
-                    <table class="table">
+                    <table class="table" id="tabela">
 
                         <thead>
                             <tr>
@@ -107,6 +105,34 @@
     <h3 class='h1-center'>Nenhum dado para exibir.</h3>
 <?php endif; ?>
 
-
-
 </div>
+
+<script>
+    function aplicarFiltros(chk) {
+        var table = document.getElementById('tabela');
+
+        // Desmarcar os outros checkboxes
+        var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+        checkboxes.forEach(function (checkbox) {
+            if (checkbox !== chk) {
+                checkbox.checked = false;
+            }
+        });
+
+        for (var i = 1; i < table.rows.length; i++) {
+            var conciliacaoCell = parseFloat(table.rows[i].cells[6].innerHTML);
+            var displayRow = true;
+
+            if (chk.id === 'filtroConciliado' && conciliacaoCell !== 0) {
+                displayRow = false;
+            } else if (chk.id === 'filtroNegativo' && conciliacaoCell >= 0) {
+                displayRow = false;
+            } else if (chk.id === 'filtroPositivo' && conciliacaoCell <= 0) {
+                displayRow = false;
+            }
+
+            table.rows[i].style.display = displayRow ? '' : 'none';
+        }
+    }
+
+</script>

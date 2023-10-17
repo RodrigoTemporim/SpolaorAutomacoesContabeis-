@@ -113,10 +113,10 @@ class Conciliacao extends BaseController
                                 if (stripos($cell->getValue(), 'SALARIO') !== false || stripos($cell->getValue(), 'DEBITADO REF. SALARIO') !== false || stripos($cell->getValue(), 'Líquido') !== false) {
                                     $originalValue = $cell->getValue(); // Armazena o valor original
                     
-                                    // Remover todos os números
+                                    // Remover numeros
                                     $valueWithoutNumbers = preg_replace('/[0-9]/', '', $originalValue);
                     
-                                    // Remover prefixos indesejados
+                                    // Remover certos prefixos
                                     $prefixesToRemove = ['PAGAMENTO REF. SALARIO -', 'Líquido Adiantamento salário/ col.: -'];
                                     foreach ($prefixesToRemove as $prefix) {
                                         if (stripos($valueWithoutNumbers, $prefix) === 0) {
@@ -134,39 +134,48 @@ class Conciliacao extends BaseController
                             }
                         }
                     }                   
+                    
                     $uniqueValues = [];
                     $valueMap = []; // Mapa de A
                     $lastRowIndex = 1; // Inicia em q lastroW
 
                     // Processamento em batches
-                    for ($startRow = 1; $startRow <= $lastRow; $startRow += $batchSize) {
-                        $endRow = min($startRow + $batchSize - 1, $lastRow);
+                    for ($row = 1; $row <= $lastRow; $row++) {                    
 
                         // SOMA do Débito e Crédito para Criar a Conciliação...
-                        for ($row = $startRow; $row <= $endRow; $row++) {
-                            $valueA = $worksheet->getCell('A' . $row)->getValue();
+                        for ($row = 1; $row <= $lastRow; $row++) {
+                            $valueA = trim($worksheet->getCell('A' . $row)->getValue());
                             $valueB = $worksheet->getCell('B' . $row)->getValue();
-                            $valueD = $worksheet->getCell('D' . $row)->getValue();
-                            $valueE = $worksheet->getCell('E' . $row)->getValue();
+                            $valueD = $worksheet->getCell('E' . $row)->getValue();
+                            $valueE = $worksheet->getCell('F' . $row)->getValue();
+                    
+                            // Remover todos os caracteres, exceto letras e números, de $valueA
+                            $valueA = strtolower($valueA);
+                            $valueA = preg_replace('/[^a-zA-Z0-9]/', '', $valueA);
 
-                            if (in_array($valueA, $uniqueValues)) {
+                            if (in_array(trim($valueA), $uniqueValues)) {
                                 // Valor em A repetido, mesclar células em A
                                 $worksheet->mergeCells("A$row:A$lastRowIndex");
 
-                                // Concatenar valores em B na primeira ocorrência de A
-                                $currentValueB = $worksheet->getCell('B' . $valueMap[$valueA])->getValue();
-                                $currentValueD = $worksheet->getCell('D' . $valueMap[$valueA])->getValue();
-                                $currentValueE = $worksheet->getCell('E' . $valueMap[$valueA])->getValue();
-                                $worksheet->setCellValue('B' . $valueMap[$valueA], $currentValueB . ' ' . $valueB);
-                                $worksheet->setCellValue('D' . $valueMap[$valueA], $currentValueD . ' ' . $valueD);
-                                $worksheet->setCellValue('E' . $valueMap[$valueA], $currentValueE . ' ' . $valueE);
-                                $worksheet->removeRow($row);
+                                if (isset($valueMap[$valueA])) {
+                                    $currentValueB = $worksheet->getCell('B' . $valueMap[$valueA])->getValue();
+                                    $currentValueD = $worksheet->getCell('E' . $valueMap[$valueA])->getValue();
+                                    $currentValueE = $worksheet->getCell('F' . $valueMap[$valueA])->getValue();
+
+                            
+                                    $worksheet->setCellValue('B' . $valueMap[$valueA], $currentValueB . ' ' . $valueB);
+                                    $worksheet->setCellValue('E' . $valueMap[$valueA], $currentValueD . ' ' . $valueD);
+                                    $worksheet->setCellValue('F' . $valueMap[$valueA], $currentValueE . ' ' . $valueE);
+                                    $worksheet->removeRow($row);
+                                    
+                                }
 
                             } else {
-                                $uniqueValues[] = $valueA;
+                                $uniqueValues[] = $valueA;                                
                                 $valueMap[$valueA] = $row; // Atualiza o mapa para a última linha de cada valor em A
+                                
                             }
-
+                            
                             $lastRowIndex = $row;
                         }
                     }
@@ -198,6 +207,7 @@ class Conciliacao extends BaseController
                             $lastRow--;
                         }
                     }
+                    
 
                     // Obtém os dados do CSV
                     $csvData = $worksheet->toArray();
